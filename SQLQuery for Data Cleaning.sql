@@ -35,7 +35,7 @@ location_city nvarchar(255),
 location_state nvarchar(255),
 );
 
--- Insert distinct rows from Human Resources$ the temporary table
+-- Insert distinct rows from Human Resources the temporary table
 INSERT INTO #temp_table
 SELECT *
 FROM (
