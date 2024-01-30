@@ -1,3 +1,4 @@
+-- After dataset in csv file has been loaded.
 SELECT *
 FROM [Tutorial].[dbo].[Human_Resources];
 
